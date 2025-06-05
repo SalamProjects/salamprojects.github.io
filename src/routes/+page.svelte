@@ -1,0 +1,80 @@
+<script lang="ts">
+  import { fade } from 'svelte/transition';
+  import Globe from '$lib/components/Globe.svelte';
+  import Goals from '$lib/components/Goals.svelte';
+  import Terminal from '$lib/components/Terminal.svelte';
+</script>
+
+<div
+  class="relative min-h-screen w-full overflow-hidden bg-white"
+  style="background-image: radial-gradient(circle, #e5e7eb 1px, transparent 1px); background-size: 20px 20px;"
+>
+  <section
+    class="relative z-10 bg-gradient-to-b from-emerald-50 via-white to-transparent pb-12 pt-28 md:pb-24 md:pt-32"
+  >
+    <div class="mx-auto max-w-7xl px-2 sm:px-4 md:px-6 lg:px-10">
+      <div class="grid grid-cols-1 items-center gap-12 lg:grid-cols-2">
+        <div class="text-center md:text-left" in:fade={{ duration: 800, delay: 200 }}>
+          <h1 class="mb-6 text-5xl font-extrabold text-emerald-900 md:text-6xl lg:text-7xl">
+            Your Skills, Our Ummah, A Brighter Future
+          </h1>
+          <p class="mb-8 text-lg text-gray-600 sm:text-xl md:text-2xl">
+            <span class="whitespace-nowrap">
+              Developers, designers, marketers—<strong>we need you</strong>.
+            </span>
+            <br />Join <em>the</em> global movement of Muslims building ethical, open-source technology
+            for the benefit of our Ummah.
+          </p>
+          <div class="flex flex-col justify-center gap-4 sm:flex-row md:justify-start">
+            <a
+              href="https://discord.gg/tfGEVUEc"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="rounded-full bg-emerald-600 px-8 py-4 text-lg font-semibold text-white shadow-lg transition hover:bg-emerald-700"
+            >
+              Make an Impact
+            </a>
+          </div>
+        </div>
+        <div class="relative hidden h-[400px] w-full lg:flex lg:h-auto">
+          <Globe />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section
+    id="mission"
+    class="relative z-10 mx-auto max-w-7xl px-2 sm:px-4 md:px-6 md:py-20 lg:px-10"
+  >
+    <div class="flex flex-col items-center justify-center">
+      <h2 class="mb-6 text-center text-4xl font-bold text-emerald-800">Our Mission</h2>
+      <Terminal />
+    </div>
+  </section>
+
+  <Goals />
+
+  <section
+    id="community"
+    class="relative z-10 mx-auto max-w-7xl px-2 py-20 sm:px-4 md:px-6 lg:px-10"
+  >
+    <div class="rounded-xl bg-emerald-600 p-8 text-center md:p-12" in:fade={{ duration: 800 }}>
+      <h2 class="mb-6 text-4xl font-bold text-white">Join the Movement</h2>
+      <p class="mx-auto mb-8 max-w-3xl text-lg text-emerald-100">
+        Whether you're a developer, designer, or a community member, there's a place for you in
+        Salam Projects. Help us build ethical digital tools that benefit Muslims worldwide.
+      </p>
+      <div class="flex flex-col justify-center gap-4 md:flex-row">
+        <a
+          href="https://discord.gg/tfGEVUEc"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="rounded-full bg-white px-8 py-4 text-lg font-semibold text-emerald-600 shadow-lg transition hover:bg-gray-100"
+        >
+          Become a contributor
+        </a>
+      </div>
+    </div>
+  </section>
+</div>
