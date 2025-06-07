@@ -46,7 +46,7 @@ This is the easiest way to get the production application running.
 
 2.  **Access the application:**
 
-    Once the container is running, you can access the application at `http://localhost:3000`.
+    Once the container is running, you can access the application at `http://localhost:5173`.
 
 3.  **To stop the container:**
     ```bash
@@ -64,7 +64,7 @@ If you prefer not to use Docker Compose, you can build and run the image manuall
 
 2.  **Run the container:**
     ```bash
-    docker run -d -p 3000:3000 --name launchpad-app launchpad-app
+    docker run -d -p 5173:5173 --name launchpad-app launchpad-app
     ```
 
 ## Contributing
