@@ -32,7 +32,7 @@ Official landing page for Salam Projects — introducing our mission, vision, an
 
 This project is configured to run in a Docker container for consistent and isolated builds.
 
-#### Using Docker Compose (Recommended)
+#### Using Docker Compose
 
 This is the easiest way to get the production application running.
 
