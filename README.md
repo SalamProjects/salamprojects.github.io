@@ -53,19 +53,6 @@ This is the easiest way to get the production application running.
     docker compose down
     ```
 
-#### Using Docker Directly
-
-If you prefer not to use Docker Compose, you can build and run the image manually.
-
-1.  **Build the image:**
-    ```bash
-    docker build -t launchpad-app .
-    ```
-
-2.  **Run the container:**
-    ```bash
-    docker run -d -p 5173:5173 --name launchpad-app launchpad-app
-    ```
 
 ## Contributing
 
