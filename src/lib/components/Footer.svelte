@@ -14,8 +14,8 @@
         </p>
       </div>
       <div class="text-center md:text-right">
-        <p class="text-xs text-emerald-200">
-          Made with <span class="text-emerald-300">♥</span> for the Ummah
+        <p class="text-base text-emerald-200" >
+          Made with <span class="text-red-500">♥</span> for the Ummah
         </p>
       </div>
     </div>

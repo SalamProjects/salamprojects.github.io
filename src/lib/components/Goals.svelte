@@ -11,15 +11,15 @@
     {
       title: 'Set Up the Foundation',
       description:
-        'Establish Salaam Projects as a nonprofit to support ethical Muslim-centric digital projects.',
+        'Establish Salam Projects as a nonprofit to support ethical Muslim-centric digital projects.',
     },
     {
       title: 'Build a Developer Platform',
       description:
-        'Create a platform where developers can list apps and tools under Salaam Projects.',
+        'Create a platform where developers can list apps and tools under Salam Projects.',
     },
     {
-      title: 'Set Quality and Ethics Standards',
+      title: 'Set Quality and Ethical Standards',
       description:
         'Ensure apps follow Islamic values, with no user tracking and minimal or no ads.',
     },
