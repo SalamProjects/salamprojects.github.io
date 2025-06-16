@@ -1,4 +1,4 @@
-<div class="fixed top-0 right-0">
+<div class="fixed right-0 z-50 md:relative">
   <!-- Hidden checkbox toggle -->
   <input id="menu-toggle" type="checkbox" class="peer hidden" />
 
