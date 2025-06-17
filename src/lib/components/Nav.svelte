@@ -1,8 +1,6 @@
 <div class="fixed right-0 z-50 md:relative">
-  <!-- Hidden checkbox toggle -->
   <input id="menu-toggle" type="checkbox" class="peer hidden" />
 
-  <!-- Mobile Menu Button -->
   <label
     for="menu-toggle"
     class="z-50 flex h-20 w-20 cursor-pointer flex-col items-center justify-center space-y-2 md:hidden"
@@ -21,9 +19,6 @@
   <!-- Desktop Navigation -->
   <nav class="hidden items-center space-x-8 md:flex">
     <a href="/" class="font-medium text-emerald-800 hover:text-emerald-600">Home</a>
-    <a href="#mission" class="font-medium text-emerald-800 hover:text-emerald-600">Mission</a>
-    <a href="#goals" class="font-medium text-emerald-800 hover:text-emerald-600">Goals</a>
-    <a href="#community" class="font-medium text-emerald-800 hover:text-emerald-600">Community</a>
     <a
       href="https://discord.gg/tfGEVUEc"
       target="_blank"
@@ -37,30 +32,13 @@
 
   <!-- Mobile Navigation -->
   <div
-    class="pointer-events-none fixed top-full left-0 z-40 w-full -translate-y-4 bg-white opacity-0 shadow-md
-      transition-all duration-200 peer-checked:pointer-events-auto
-      peer-checked:translate-y-0 peer-checked:opacity-100 md:hidden"
+    class="pointer-events-none fixed top-full left-0 z-40 w-full -translate-y-4 bg-white opacity-0 shadow-md transition-all duration-200 peer-checked:pointer-events-auto peer-checked:translate-y-0 peer-checked:opacity-100 md:hidden"
   >
-    <div class="items-center space-y-1 px-4 py-6">
+    <nav class="items-center space-y-1 px-4 py-6">
       <a
         href="/"
         class="block rounded-md px-3 py-2 text-center text-2xl text-emerald-800 hover:bg-emerald-50"
         >Home</a
-      >
-      <a
-        href="#mission"
-        class="block rounded-md px-3 py-2 text-center text-2xl text-emerald-800 hover:bg-emerald-50"
-        >Mission</a
-      >
-      <a
-        href="#goals"
-        class="block rounded-md px-3 py-2 text-center text-2xl text-emerald-800 hover:bg-emerald-50"
-        >Goals</a
-      >
-      <a
-        href="#community"
-        class="block rounded-md px-3 py-2 text-center text-2xl text-emerald-800 hover:bg-emerald-50"
-        >Community</a
       >
 
       <a
@@ -72,6 +50,6 @@
         <span>Join Us</span>
         <img src="/discord.svg" alt="Discord Icon" class="inline h-10 w-10" />
       </a>
-    </div>
+    </nav>
   </div>
 </div>
