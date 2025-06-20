@@ -42,7 +42,7 @@
       >
 
       <a
-        href="https://discord.gg/tfGEVUEc"
+        href="https://discord.gg/d94MKzTteW"
         target="_blank"
         rel="noopener noreferrer"
         class="mx-auto flex w-full max-w-md items-center justify-center space-x-2 rounded-full bg-emerald-600 px-6 py-2 text-2xl text-white hover:bg-emerald-700"
