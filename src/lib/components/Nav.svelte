@@ -20,7 +20,7 @@
   <nav class="hidden items-center space-x-8 md:flex">
     <a href="/" class="font-medium text-emerald-800 hover:text-emerald-600">Home</a>
     <a
-      href="https://discord.gg/tfGEVUEc"
+      href="https://discord.gg/d94MKzTteW"
       target="_blank"
       rel="noopener noreferrer"
       class="flex w-32 items-center space-x-2 rounded-full bg-emerald-600 px-6 py-2 text-white hover:bg-emerald-700"
